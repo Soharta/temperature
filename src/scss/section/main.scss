@@ -1,0 +1,23 @@
+.wrapper {
+	// max-width: 600px;
+	min-width: 400px;
+	margin: 0 300px;
+	border: 1px solid lightblue;
+	text-align: center;
+}
+.celsi,
+.faringat,
+.thermometer {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 20px;
+}
+.thermometer {
+	width: 20px;
+	height: 200px;
+	background-color: red;
+}
+.meas {
+	height: 100%;
+}
+.point
