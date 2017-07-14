@@ -45,6 +45,9 @@
 				} else if(currentValue < 105) {
 					celsi.innerHTML = '+'+(105 - currentValue) + '&#176;C';
 					faringat.innerHTML = '+'+( (9 / 5) * (105 - currentValue) + 32 ).toFixed(1) + '&#176;F';
+				} else if(currentValue == 105) {
+					celsi.innerHTML = 0 + '&#176;C';
+					faringat.innerHTML = 32 + '&#176;F';
 				}
 			};
 			function positionPointAndBlue(options) {
